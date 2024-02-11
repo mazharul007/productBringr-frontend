@@ -5,7 +5,11 @@
   "projects": {
     "productBringr-frontend": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+         "@schematics/angular:component": {
+         "style": "scss"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -94,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "59c6788a-7265-4ae2-8f59-9ea68b581a6e"
   }
 }
